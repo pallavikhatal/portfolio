@@ -1,40 +1,45 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import './Projects.css';
+import ecommerce from "../assets/ecommerce.png";
+import weather from "../assets/weather_app.png";
+import tictactoe from "../assets/tictactoe.png";
+import password from "../assets/passgenerator.png";
+import stopwatch from "../assets/Stopwatch.png";
 
 const projects = [
   {
     title: "E-commerce Website",
     description: "Built a responsive e-commerce platform with product filtering and cart functionality.",
-    image: "/images/ecommerce.png",
+    image: ecommerce,
     github: "https://github.com/pallavikhatal/Shoping-Cart.git",
     live: "#"
   },
   {
     title: "Weather App",
     description: "Displays current weather data by fetching from an API.",
-    image: "/images/weather_app.png",
+    image: weather,
     github: "https://github.com/pallavikhatal/Weather-App.git",
     live: "#"
   },
   {
     title: "Tic Tac Toe",
     description: "Classic 2-player game built using HTML, CSS, and JavaScript.",
-    image: "/images/tictactoe.png",
+    image: tictactoe,
     github: "https://github.com/pallavikhatal/Tic-Tac-Toe-Game.git",
     live: "#"
   },
   {
     title: "Password Generator",
     description: "Generates strong random passwords with options for length and symbols.",
-    image: "/images/passgenerator.png",
+    image: password,
     github: "https://github.com/pallavikhatal/Password-Generator-App.git",
     live: "#"
   },
   {
     title: "Stopwatch",
     description: "Simple stopwatch app built with JavaScript and modern UI.",
-    image: "/images/Stopwatch.png",
+    image: stopwatch,
     github: "https://github.com/pallavikhatal/Stopwatch-App.git",
     live: "#"
   }
