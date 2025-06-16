@@ -1,0 +1,170 @@
+/* .about-section {
+  background-color: #fff;
+}
+
+.section-subtitle {
+  color: #a4a47a;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: #888;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.about-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.about-details strong {
+  font-weight: 600;
+  color: #000;
+  display: inline-block;
+  width: 150px;
+}
+
+.about-details span {
+  color: #a4a47a;
+  font-weight: 600;
+}
+
+.icon-group {
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider {
+  color: #9ea282;
+  font-size: 24px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.icon-circle {
+  background-color: #b2b58e;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link:hover {
+  color: #949864;
+} */
+
+
+
+.about-section {
+  background-color: #f9f9f9;
+  margin-top: 5rem;
+}
+
+.section-subtitle {
+  color: #720e9e;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+.about-details {
+  margin-top: 20px;
+
+}
+
+.about-details p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.about-details strong {
+  color: #333;
+  min-width: 120px;
+  display: inline-block;
+}
+
+.about-details span {
+  color: #666;
+}
+
+
+.icon-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.divider {
+  color: #720e9e;
+  font-size: 24px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.icon-circle {
+  background-color: #720e9e;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-link:hover {
+  color: #6c63ff;
+}
