@@ -82,11 +82,10 @@ import './About.css';
 import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import { IoMdMailUnread } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
-import Skills from './Skills';
 
 const About = () => {
     return (
-        <section className="about-section py-5">
+        <section id='about' className="about-section py-5">
             <Container>
                 <Row className="align-items-center container-row">
                    

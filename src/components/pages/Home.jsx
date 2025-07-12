@@ -1,10 +1,10 @@
 import { Button } from 'react-bootstrap'
 import { Col, Container, Row } from 'react-bootstrap'
-import pallaviimg from '../assets/pallaviimg.png'
+import pallaviimg from '../../assets/pallaviimg.png'
 import './Home.css';
-import About from './About';
 
 const Home = () => {
+
   return (
     <section className='hero-section'>
         <Container fluid>
@@ -15,8 +15,12 @@ const Home = () => {
                         Creative <span className='highlight'>Fullstack</span><br/> Developer.
                     </h1>
                     <div className='mt-4'>
-                        <Button variant="outline-dark" className='me-3 custom-btn'> Hire Me </Button>
-                        <Button variant="outline-secondary" className='custom-btn'>Download CV</Button>
+                        <Button variant="outline-dark" className='me-3 custom-btn' onClick={() => window.location.href = '#about'}>
+                        About Me
+                        </Button>
+                        <a href="/public/Pallavi Vijay Khatal Resume.pdf" download className="btn btn-outline-secondary custom-btn-cv">
+                        Download CV
+                        </a>
                     </div>
                 </Col>
 
