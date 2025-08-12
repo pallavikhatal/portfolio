@@ -16,35 +16,35 @@ const projects = [
     description: "Generates strong random passwords with options for length and symbols using JavaScript.",
     image: password,
     github: "https://github.com/pallavikhatal/Password-Generator-App.git",
-    live: "#"
+    live: "https://password-generator-pk.netlify.app/"
   }, 
   {
     title: "Tic Tac Toe",
     description: "Classic 2-player game built using HTML, CSS, and JavaScript.",
     image: tictactoe,
     github: "https://github.com/pallavikhatal/Tic-Tac-Toe-Game.git",
-    live: "#"
+    live: "https://tic-tac-toe-pallavi.netlify.app/"
   },
   {
     title: "Stopwatch",
     description: "Simple stopwatch app built with JavaScript and modern UI.",
     image: stopwatch,
     github: "https://github.com/pallavikhatal/Stopwatch-App.git",
-    live: "#"
+    live: "https://stopwatch-app-pk.netlify.app/"
   },
   {
     title: "Weather App",
     description: "Displays current weather data by fetching from an API using JavaScript.",
     image: weather,
     github: "https://github.com/pallavikhatal/Weather-App.git",
-    live: "#"
+    live: "https://weatherforcast-app-pk.netlify.app/"
   },
   {
     title: "People Directory - Team Management App",
     description: "A modern team directory with search, filtering, and member CRUD operations, inspired by People.co UI using React.js .",
     image: people, 
     github: "https://github.com/pallavikhatal/PEOPLE.CO-website.git", 
-    live: "https://your-live-site-link.com" 
+    live: "https://peopleco-web.netlify.app/" 
   },
   {
     title: "VJONE Parivaar - Product Listing Dashboard",
