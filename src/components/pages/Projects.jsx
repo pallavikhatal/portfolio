@@ -8,35 +8,28 @@ import password from "../../assets/passgenerator.png";
 import stopwatch from "../../assets/Stopwatch.png";
 import vjone from "../../assets/vjone.png";
 import people from "../../assets/people.png";
-import softdrink from "../../assets/softdrink.png";
+// import softdrink from "../../assets/softdrink.png";
 
 const projects = [
-   {
-    title: "VJONE Parivaar - Product Listing Dashboard",
-    description: "Responsive product dashboard with filters for category, price, and rating using React.js.",
-    image: vjone, 
-    github: "https://github.com/pallavikhatal/productswebsite.git",
-    live: "https://your-live-site-link.com" 
+  {
+    title: "Password Generator",
+    description: "Generates strong random passwords with options for length and symbols using JavaScript.",
+    image: password,
+    github: "https://github.com/pallavikhatal/Password-Generator-App.git",
+    live: "#"
+  }, 
+  {
+    title: "Tic Tac Toe",
+    description: "Classic 2-player game built using HTML, CSS, and JavaScript.",
+    image: tictactoe,
+    github: "https://github.com/pallavikhatal/Tic-Tac-Toe-Game.git",
+    live: "#"
   },
   {
-    title: "People Directory - Team Management App",
-    description: "A modern team directory with search, filtering, and member CRUD operations, inspired by People.co UI using React.js .",
-    image: people, 
-    github: "https://github.com/pallavikhatal/PEOPLE.CO-website.git", 
-    live: "https://your-live-site-link.com" 
-  },
-  {
-    title: "SoftDrink Manager – Mini CRUD App",
-    description: "Simple CRUD app to manage soft drinks using React with add/edit/delete functionality using React.js.",
-    image: softdrink,
-    github: "https://github.com/pallavikhatal/CRUD-Operation-in-Single-Page.git", 
-    live: "https://your-live-site-link.com" 
-  },
-  {
-    title: "E-commerce Website",
-    description: "Built a responsive e-commerce platform with product filtering and cart functionality using JavaScript.",
-    image: ecommerce,
-    github: "https://github.com/pallavikhatal/Shoping-Cart.git",
+    title: "Stopwatch",
+    description: "Simple stopwatch app built with JavaScript and modern UI.",
+    image: stopwatch,
+    github: "https://github.com/pallavikhatal/Stopwatch-App.git",
     live: "#"
   },
   {
@@ -47,26 +40,33 @@ const projects = [
     live: "#"
   },
   {
-    title: "Tic Tac Toe",
-    description: "Classic 2-player game built using HTML, CSS, and JavaScript.",
-    image: tictactoe,
-    github: "https://github.com/pallavikhatal/Tic-Tac-Toe-Game.git",
-    live: "#"
+    title: "People Directory - Team Management App",
+    description: "A modern team directory with search, filtering, and member CRUD operations, inspired by People.co UI using React.js .",
+    image: people, 
+    github: "https://github.com/pallavikhatal/PEOPLE.CO-website.git", 
+    live: "https://your-live-site-link.com" 
   },
   {
-    title: "Password Generator",
-    description: "Generates strong random passwords with options for length and symbols using JavaScript.",
-    image: password,
-    github: "https://github.com/pallavikhatal/Password-Generator-App.git",
-    live: "#"
+    title: "VJONE Parivaar - Product Listing Dashboard",
+    description: "Responsive product dashboard with filters for category, price, and rating using React.js.",
+    image: vjone, 
+    github: "https://github.com/pallavikhatal/productswebsite.git",
+    live: "https://your-live-site-link.com" 
   },
   {
-    title: "Stopwatch",
-    description: "Simple stopwatch app built with JavaScript and modern UI.",
-    image: stopwatch,
-    github: "https://github.com/pallavikhatal/Stopwatch-App.git",
+    title: "E-commerce Website",
+    description: "Built a responsive e-commerce platform with product filtering and cart functionality using JavaScript.",
+    image: ecommerce,
+    github: "https://github.com/pallavikhatal/Shoping-Cart.git",
     live: "#"
-  }
+  },
+  // {
+  //   title: "SoftDrink Manager – Mini CRUD App",
+  //   description: "Simple CRUD app to manage soft drinks using React with add/edit/delete functionality using React.js.",
+  //   image: softdrink,
+  //   github: "https://github.com/pallavikhatal/CRUD-Operation-in-Single-Page.git", 
+  //   live: "https://your-live-site-link.com" 
+  // },
 ];
 
 const Projects = () => {

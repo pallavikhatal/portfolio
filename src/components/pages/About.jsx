@@ -87,9 +87,9 @@ const About = () => {
     return (
         <section id='about' className="about-section py-5">
             <Container>
-                <Row className="align-items-center container-row">
+                <Row className="d-flex justify-content-between g-5 align-items-center container-row">
                    
-                    <Col md={6} className="about-intro">
+                    <Col md={6} className="about-intro px-4">
                         <p className="section-subtitle">MY INTRO</p>
                         <h2 className="section-title">About Me</h2>
                         <p className="section-description">
@@ -98,7 +98,7 @@ const About = () => {
                     </Col>
 
                    
-                    <Col md={6} style={{paddingLeft:'3rem'}}>
+                    <Col md={6} >
                         <div className="about-details">
                             <p><strong>Name:</strong> <span>Pallavi Khatal</span></p>
                             <p><strong>Date of birth:</strong> <span>June 21, 2002</span></p>

@@ -1,6 +1,7 @@
 import { Button } from 'react-bootstrap'
 import { Col, Container, Row } from 'react-bootstrap'
 import pallaviimg from '../../assets/pallaviimg.png'
+
 import './Home.css';
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
                 <Col md={6} className='text-center text-md-start py-5' style={{paddingLeft:'5rem'}}>
                     <p className='subtitle'>HELLO! THIS IS PALLAVI</p>
                     <h1 className='hero-title'>
-                        Creative <span className='highlight'>Fullstack</span><br/> Developer.
+                        Creative <span className='highlight'>Frontend</span><br/> Developer.
                     </h1>
                     <div className='mt-4'>
                         <Button variant="outline-dark" className='me-3 custom-btn' onClick={() => window.location.href = '#about'}>

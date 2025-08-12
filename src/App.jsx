@@ -32,6 +32,7 @@ import About from "./components/pages/About"
 import Skills from "./components/pages/Skills"
 import Projects from "./components/pages/Projects"
 import Contact from "./components/pages/Contact"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <section id="projects"><Projects /></section>
         <section id="contact"><Contact /></section>
       </div>
+      <Footer />
     </>
   );
 }
